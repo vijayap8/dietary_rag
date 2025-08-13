@@ -53,8 +53,6 @@ def format_docs(docs):
 def extract_source(docs):
     return "\n\n".join(doc.metadata['source'] for doc in docs)
 
-print(retriever.invoke("I can't stand garlic but I have heard about it's immense health benefits. What foods should I substitute it with?"))
-
 
 prompts = ["What kinds of oils should I cook with for a heart healthy diet?",
 "How can I decrease sodium in a heart healthy diet?",
