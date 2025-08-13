@@ -17,7 +17,7 @@ Multiple links can be provided in between `===` and `+++` delimiters.
 
 
 ## Steps to run
-1. Install required packages (in `requirements.txt`)
+1. Install required packages (in `pip install -r requirements.txt`)
 2. Provide Together API key in place of {API_KEY}
 3. Format knowledge base based on format above
 4. Run `python3 rag.py`
