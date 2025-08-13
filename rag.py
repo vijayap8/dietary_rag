@@ -21,7 +21,7 @@ from langchain_together.embeddings import TogetherEmbeddings
 
 hf = TogetherEmbeddings(model="BAAI/bge-large-en-v1.5")
 
-# Knowledge base is documents, separated by '===', with links as headings, specified w/ '+++'
+# Knowledge base will contain documents, separated into topics by '===', with associated links or citations as headings, specified w/ '+++'
 knowledge_base = '<PATH_TO_KNOWLEDGE_BASE>'
 prompt_string ="You are an expert dietary assistant that gives lifestyle recommendations based on questions. Use the following pieces of retrieved context to inform your answer. If you can't figure out the answer from the context, just say 'Please reach out to a dietition or medical practitioner for answers to this question'. Cite your sources specifically by including a section called 'Citations'\nQuestion: {question} \nContext: {context} \nContect Source: {source} \nAnswer:"
 
