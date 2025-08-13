@@ -1,4 +1,4 @@
-# Code for implementing RAG system, along with questions
+# RAG system Implementation
 
 Knowledge base should be formatted like this:
 
