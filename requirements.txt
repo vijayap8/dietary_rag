@@ -1,0 +1,7 @@
+langchain
+langchain-core
+langchain-chroma
+langchain-community
+langchainhub
+langchain_experimental
+langchain-together
